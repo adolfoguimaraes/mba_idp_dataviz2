@@ -2,16 +2,22 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
-    padding: 0;
+    padding: 10px 100px 10px 100px;
     background-color: #f4f4f4;
     color: #333;
 }
 
 header {
-    background: #35424a;
+    background: #2e0c06;
     color: #fff;
     padding: 10px 20px;
-    text-align: center;
+    text-align: left;
+    font-size: 0.8em;
+}
+
+header p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
 }
 
 footer {
@@ -26,7 +32,7 @@ footer {
 
 main {
     padding: 20px;
-    text-align: center;
+    text-align: justify;
 }
 
 button {
